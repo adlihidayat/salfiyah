@@ -1,8 +1,9 @@
 import React from "react";
-import img1 from "../public/BITS-item1-1.jpg";
+
 type Props = {
   noService: (event: React.MouseEvent<HTMLElement>) => void;
 };
+
 function BeautyInTheSun({ noService }: Props) {
   return (
     <div className=" w-screen h-auto py-40 bg-white flex flex-col items-center justify-center space-y-20">
