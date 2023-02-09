@@ -1,6 +1,8 @@
 import React from "react";
-
-function FeatureItem({ beautyInTheSun }) {
+type Props = {
+  beautyInTheSun: (event: React.MouseEvent<HTMLElement>) => void;
+};
+function FeatureItem({ beautyInTheSun }: Props) {
   return (
     <div className=" w-screen h-screen bg-LP-FeatureItem bg-cover flex items-end justify-center">
       <div className=" text-white flex flex-col items-center space-y-5 mb-20">
