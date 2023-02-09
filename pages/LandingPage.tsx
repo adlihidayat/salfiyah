@@ -10,7 +10,7 @@ function LandingPage({ beautyInTheSun, noService }: Props) {
   return (
     <div className="">
       <FeatureItem beautyInTheSun={beautyInTheSun} />
-      <Highlight />
+      <Highlight noService={noService} />
       <Collection noService={noService} />
     </div>
   );
