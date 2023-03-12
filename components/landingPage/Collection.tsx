@@ -2,9 +2,10 @@ import React from "react";
 
 type Props = {
   noService: (event: React.MouseEvent<HTMLElement>) => void;
+  collectionList: (event: React.MouseEvent<HTMLElement>) => void;
 };
 
-function Collection({ noService }: Props) {
+function Collection({ noService, collectionList }: Props) {
   return (
     <div className=" px-1 w-screen h-auto py-1">
       <div className=" space-y-1">
@@ -35,7 +36,7 @@ function Collection({ noService }: Props) {
           </p>
         </div>
         <div
-          onClick={noService}
+          onClick={collectionList}
           className="w-auto h-[40vw] md:h-[20vw] bg-gray-700 bg-LP-Shopnow bg-cover flex items-center justify-center cursor-pointer"
         >
           <p className="text-white  font-extrabold opacity-100 text-4xl md:text-6xl xl:text-7xl">
