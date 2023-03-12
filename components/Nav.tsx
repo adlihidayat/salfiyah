@@ -180,11 +180,13 @@ function Nav({
         </div>
         <div>
           {data ? (
-            <img
-              src={data.picture}
-              alt=""
-              className="w-6 h-6 rounded-full cursor-pointer hidden md:block"
-            />
+            <picture>
+              <img
+                src={data.picture}
+                alt=""
+                className="w-6 h-6 rounded-full cursor-pointer hidden md:block"
+              />
+            </picture>
           ) : (
             <UserCircleIcon
               className="w-6 cursor-pointer hidden md:block hover:text-white"

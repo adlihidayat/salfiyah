@@ -14,11 +14,13 @@ function News({ noService }: Props) {
             className="flex flex-col items-center space-y-5 group hover:cursor-pointer"
             onClick={noService}
           >
-            <img
-              src="./news/news-item1.webp"
-              alt=""
-              className="w-96 h-60 object-cover duration-200 group-hover:w-[410px] group-hover:h-64"
-            />
+            <picture>
+              <img
+                src="./news/news-item1.webp"
+                alt=""
+                className="w-96 h-60 object-cover duration-200 group-hover:w-[410px] group-hover:h-64"
+              />
+            </picture>
             <p className=" w-60 text-center group-hover:underline">
               2022/2023 METIERS D'ART SHOW
             </p>
@@ -27,11 +29,13 @@ function News({ noService }: Props) {
             className="flex flex-col items-center space-y-5 group hover:cursor-pointer"
             onClick={noService}
           >
-            <img
-              src="./news/news-item2.webp"
-              alt=""
-              className="w-96 h-60 object-cover duration-200 group-hover:w-[410px] group-hover:h-64"
-            />
+            <picture>
+              <img
+                src="./news/news-item2.webp"
+                alt=""
+                className="w-96 h-60 object-cover duration-200 group-hover:w-[410px] group-hover:h-64"
+              />
+            </picture>
             <p className=" w-60 text-center group-hover:underline">
               FASHION TECH SERIES: SUPPLY CHAIN TRANSFORMATION
             </p>
@@ -41,11 +45,13 @@ function News({ noService }: Props) {
           className="flex flex-col items-center space-y-5 group hover:cursor-pointer"
           onClick={noService}
         >
-          <img
-            src="./news/news-item3.webp"
-            alt=""
-            className="w-96 h-60 object-cover duration-200 group-hover:w-[410px] group-hover:h-64"
-          />
+          <picture>
+            <img
+              src="./news/news-item3.webp"
+              alt=""
+              className="w-96 h-60 object-cover duration-200 group-hover:w-[410px] group-hover:h-64"
+            />
+          </picture>
           <p className=" w-60 text-center group-hover:underline">
             INDONESIAN FASHION WEEK (IFW)
           </p>

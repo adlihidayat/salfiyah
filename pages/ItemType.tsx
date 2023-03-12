@@ -154,59 +154,73 @@ function ItemType({ pic, title }: any) {
       </div>
       <div className=" pb-40 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 grid-rows-4 md:grid-crows-3 xl:grid-rows-2">
         <div className="w-auto h-[360px] md:h-[600px]  flex flex-col items-center ">
-          <img
-            src={`/${pic}/${pic}-item1.webp`}
-            alt=""
-            className=" h-72 md:h-[500px] w-screen object-cover"
-          />
+          <picture>
+            <img
+              src={`/${pic}/${pic}-item1.webp`}
+              alt=""
+              className=" h-72 md:h-[500px] w-screen object-cover"
+            />
+          </picture>
           <p className=" pt-2 md:pt-5 ">No stock</p>
         </div>
         <div className="w-auto h-[360px] md:h-[600px]  flex flex-col items-center ">
-          <img
-            src={`/${pic}/${pic}-item2.webp`}
-            alt=""
-            className=" h-72 md:h-[500px] w-screen object-cover"
-          />
+          <picture>
+            <img
+              src={`/${pic}/${pic}-item2.webp`}
+              alt=""
+              className=" h-72 md:h-[500px] w-screen object-cover"
+            />
+          </picture>
           <p className=" pt-2 md:pt-5 ">No stock</p>
         </div>
         <div className="w-auto h-[360px] md:h-[600px]  flex flex-col items-center ">
-          <img
-            src={`/${pic}/${pic}-item3.webp`}
-            alt=""
-            className=" h-72 md:h-[500px] w-screen object-cover"
-          />
+          <picture>
+            <img
+              src={`/${pic}/${pic}-item3.webp`}
+              alt=""
+              className=" h-72 md:h-[500px] w-screen object-cover"
+            />
+          </picture>
           <p className=" pt-2 md:pt-5 ">No stock</p>
         </div>
         <div className="w-auto h-[360px] md:h-[600px]  flex flex-col items-center ">
-          <img
-            src={`/${pic}/${pic}-item4.webp`}
-            alt=""
-            className=" h-72 md:h-[500px] w-screen object-cover"
-          />
+          <picture>
+            <img
+              src={`/${pic}/${pic}-item4.webp`}
+              alt=""
+              className=" h-72 md:h-[500px] w-screen object-cover"
+            />
+          </picture>
           <p className=" pt-2 md:pt-5 ">No stock</p>
         </div>
         <div className="w-auto h-[360px] md:h-[600px]  flex flex-col items-center ">
-          <img
-            src={`/${pic}/${pic}-item5.webp`}
-            alt=""
-            className=" h-72 md:h-[500px] w-screen object-cover"
-          />
+          <picture>
+            <img
+              src={`/${pic}/${pic}-item5.webp`}
+              alt=""
+              className=" h-72 md:h-[500px] w-screen object-cover"
+            />
+          </picture>
           <p className=" pt-2 md:pt-5 ">No stock</p>
         </div>
         <div className="w-auto h-[360px] md:h-[600px]  flex flex-col items-center ">
-          <img
-            src={`/${pic}/${pic}-item6.webp`}
-            alt=""
-            className=" h-72 md:h-[500px] w-screen object-cover"
-          />
+          <picture>
+            <img
+              src={`/${pic}/${pic}-item6.webp`}
+              alt=""
+              className=" h-72 md:h-[500px] w-screen object-cover"
+            />
+          </picture>
           <p className=" pt-2 md:pt-5 ">No stock</p>
         </div>
         <div className="w-auto h-[360px] md:h-[600px]  flex flex-col items-center ">
-          <img
-            src={`/${pic}/${pic}-item7.webp`}
-            alt=""
-            className=" h-72 md:h-[500px] w-screen object-cover"
-          />
+          <picture>
+            <img
+              src={`/${pic}/${pic}-item7.webp`}
+              alt=""
+              className=" h-72 md:h-[500px] w-screen object-cover"
+            />
+          </picture>
           <p className=" pt-2 md:pt-5 ">No stock</p>
         </div>
       </div>
